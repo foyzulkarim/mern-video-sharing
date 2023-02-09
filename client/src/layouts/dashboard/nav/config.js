@@ -22,6 +22,11 @@ const navConfig = [
     icon: icon('ic_cart'),
   },
   {
+    title: "Video upload",
+    path: "/dashboard/video-upload",
+    icon: icon("ic_blog"),
+  },
+  {
     title: 'blog',
     path: '/dashboard/blog',
     icon: icon('ic_blog'),
