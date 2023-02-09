@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage';
 import Page404 from './pages/Page404';
 import ProductsPage from './pages/ProductsPage';
 import DashboardAppPage from './pages/DashboardAppPage';
+import VideoUploadPage from "./pages/VideoUploadPage";
 
 // ----------------------------------------------------------------------
 
@@ -22,6 +23,7 @@ export default function Router() {
         { path: 'app', element: <DashboardAppPage /> },
         { path: 'user', element: <UserPage /> },
         { path: 'products', element: <ProductsPage /> },
+        { path: "video-upload", element: <VideoUploadPage /> },
         { path: 'blog', element: <BlogPage /> },
       ],
     },
